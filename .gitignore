@@ -1,1 +1,3 @@
 *.txt
+.pylintrc
+.python-version
