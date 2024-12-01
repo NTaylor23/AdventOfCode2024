@@ -6,7 +6,7 @@ print("---- Day 01 ----")
 
 with open(file="input/day01.txt", mode="r", encoding="utf-8") as file:
     data = [findall(r"\d+", line) for line in file.readlines()]
-    left = [int(pair[0]) for pair in data], 
+    left = [int(pair[0]) for pair in data]
     right = [int(pair[-1]) for pair in data]
     counter = Counter(right)
     p1 = sum(abs(a - b) for a, b in zip(sorted(left), sorted(right)))
