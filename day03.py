@@ -1,14 +1,12 @@
 from re import compile, findall, finditer
 from operator import mul
 
-pat = compile(r"(do(n\'t)?\x28\x29)|(mul\x28\d+,\d+\x29)")
-
-
 def multiply(operation):
     return mul(*map(int, findall(r"\d+", operation)))
 
+
 print("---- Day 03 ----")
-with open("input/day03.txt", "r") as file:
+with open("input/day03.txt", encoding="utf-8", mode="r") as file:
     data = file.read()
     p1, p2, flag = 0, 0, True
     for m in finditer(compile(r"(do(n\'t)?\x28\x29)|(mul\x28\d+,\d+\x29)"), data):

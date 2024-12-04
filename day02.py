@@ -22,7 +22,7 @@ def try_delete(levels: List[int]) -> bool:
 
 
 print("---- Day 02 ----")
-with open(file="input/day02.txt", encoding="utf-8") as file:
+with open(file="input/day02.txt", encoding="utf-8", mode="r") as file:
     data = [[*map(int, line.split())] for line in file.readlines()]
 
     # reuse this to avoid reprocessing valid lists
