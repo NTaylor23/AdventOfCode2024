@@ -6,4 +6,4 @@
 | 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)  | [day02.py](day02.py) | 0.014    |
 | 3   | [Mull It Over](https://adventofcode.com/2024/day/3)       | [day03.py](day03.py) | 0.002    |
 | 4   | [Ceres Search](https://adventofcode.com/2024/day/4)       | [day04.py](day04.py) | 0.005    |
-| 5   | [Print Queue](https://adventofcode.com/2024/day/5)        | [day04.py](day05.py) | 0.488    |
+| 5   | [Print Queue](https://adventofcode.com/2024/day/5)        | [day05.py](day05.py) | 0.488    |
