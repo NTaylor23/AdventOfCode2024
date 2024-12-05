@@ -16,7 +16,7 @@ def median_after_sort(pairs: List[List[str]], update: List[str]) -> int:
     return int(update[len(update) // 2])
 
 
-print("---- Day 04 ----")
+print("---- Day 05 ----")
 with open("input/day05.txt", encoding="utf-8", mode="r") as file:
     from time import perf_counter
     p1, p2 = 0, 0
