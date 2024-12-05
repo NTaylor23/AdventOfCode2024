@@ -18,9 +18,7 @@ def median_after_sort(pairs: List[List[str]], update: List[str]) -> int:
 
 print("---- Day 05 ----")
 with open("input/day05.txt", encoding="utf-8", mode="r") as file:
-    from time import perf_counter
     p1, p2 = 0, 0
-    start = perf_counter()
     data = file.read().split("\n\n")
     mp = defaultdict(set)
     pairs = [page.split("|") for page in data[0].split("\n")]
@@ -41,6 +39,5 @@ with open("input/day05.txt", encoding="utf-8", mode="r") as file:
             previous_pages.add(n)
         if flag:
             p1 += int(update[len(update) // 2])
-    print(perf_counter() - start)
     print(f"\tPart 1: {p1}")
     print(f"\tPart 2: {p2}")
