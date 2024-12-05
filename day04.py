@@ -1,3 +1,5 @@
+from typing import List
+
 def rotate_90_deg(s: str) -> str:
     arr = [list(row) for row in s.split("\n")]
     return "\n".join(["".join([arr[i][j] for i in range(rows)]) for j in range(cols)])
@@ -7,14 +9,14 @@ def count(s: str) -> int:
     return s.count("XMAS") + s.count("SAMX")
 
 
-def count_xmas_occurences(grid, row, col) -> int:
+def count_xmas_occurences(grid: List[List[str]], row: int, col: int) -> int:
     first = "".join(grid[row + i][col + i] for i in range(4))
     second = "".join(grid[row + 4 - i - 1][col + i] for i in range(4))
     choices = ["XMAS", "SAMX"]
     return int(first in choices) + int(second in choices)
 
 
-def count_mas_occurences(grid, row, col):
+def count_mas_occurences(grid: List[List[str]], row: int, col: int):
     first = "".join(grid[row + i][col + i] for i in range(3))
     second = "".join(grid[row + 3 - i - 1][col + i] for i in range(3))
     choices = ["SAM", "MAS"]
