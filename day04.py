@@ -1,5 +1,6 @@
 from typing import List
 
+
 def rotate_90_deg(s: str) -> str:
     arr = [list(row) for row in s.split("\n")]
     return "\n".join(["".join([arr[i][j] for i in range(rows)]) for j in range(cols)])
