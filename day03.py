@@ -1,6 +1,7 @@
 from re import compile, findall, finditer
 from operator import mul
 
+
 def multiply(operation):
     return mul(*map(int, findall(r"\d+", operation)))
 
