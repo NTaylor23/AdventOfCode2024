@@ -8,3 +8,4 @@
 | 4   | [Ceres Search](https://adventofcode.com/2024/day/4)       | [day04.py](day04.py) | 0.005    |
 | 5   | [Print Queue](https://adventofcode.com/2024/day/5)        | [day05.py](day05.py) | 0.488    |
 | 6   | [Guard Gallivant](https://adventofcode.com/2024/day/6)    | [day06.py](day06.py) | 2.474    |
+| 7   | [Bridge Repair](https://adventofcode.com/2024/day/7)      | [day07.py](day07.py) | 4.121    |
