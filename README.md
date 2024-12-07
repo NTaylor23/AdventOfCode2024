@@ -7,3 +7,4 @@
 | 3   | [Mull It Over](https://adventofcode.com/2024/day/3)       | [day03.py](day03.py) | 0.002    |
 | 4   | [Ceres Search](https://adventofcode.com/2024/day/4)       | [day04.py](day04.py) | 0.005    |
 | 5   | [Print Queue](https://adventofcode.com/2024/day/5)        | [day05.py](day05.py) | 0.488    |
+| 6   | [Guard Gallivant](https://adventofcode.com/2024/day/6)    | [day06.py](day06.py) | 2.474    |
