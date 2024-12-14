@@ -14,3 +14,4 @@
 | 10  | [Hoof It](https://adventofcode.com/2024/day/10)              | [day10.py](day10.py) |
 | 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)    | [day11.py](day11.py) |
 | 12  | [Garden Groups](https://adventofcode.com/2024/day/12)        | [day12.py](day12.py) |
+| 13  | [Claw Contraption](https://adventofcode.com/2024/day/13)     | [day13.py](day13.py) |
