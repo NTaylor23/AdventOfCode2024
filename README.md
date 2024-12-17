@@ -15,3 +15,7 @@
 | 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)    | [day11.py](day11.py) |
 | 12  | [Garden Groups](https://adventofcode.com/2024/day/12)        | [day12.py](day12.py) |
 | 13  | [Claw Contraption](https://adventofcode.com/2024/day/13)     | [day13.py](day13.py) |
+| 14  | [Restroom Redoubt](https://adventofcode.com/2024/day/14)     | [day14.py](day14.py) |
+| 15  | [Warehouse Woes](https://adventofcode.com/2024/day/14)       | TBD                  |
+| 16  | [Reindeer Maze](https://adventofcode.com/2024/day/16)        | [day16.py](day16.py) |
+
